@@ -1,7 +1,7 @@
-#include "gsa.h"
 #include <assert.h>
 #include <stddef.h>
 #include <stdio.h>
+#include "gsa.h"
 
 static inline size_t dynarr_size(size_t cap)
 {
