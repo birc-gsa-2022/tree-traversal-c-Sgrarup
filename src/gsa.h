@@ -3,6 +3,17 @@
 
 #include <stdlib.h>
 
+/* //Added queue
+typedef queue_data *queue;
+struct queue_data
+{
+    size_t len;
+};
+
+queue new_queue(void); */
+
+
+
 // Dynamic array that grows as we append to it
 typedef struct dynarr_data *dynarr;
 struct dynarr_data
